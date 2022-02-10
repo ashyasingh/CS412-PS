@@ -21,8 +21,8 @@
 // }
 // Print the data from the returned object on the console (console.table would be good for this).
 
-const unnamed = (str, func) => func(str)
-const word = unnamed('supercalifragilisticexpialidocious', str => str.replace(/c/g, "*c").split('*'))
+const execute = (str, lambda) => lambda(str)
+const fragment = execute('supercalifragilisticexpialidocious', str => str.replace(/c/g, "*c").split('*'))
 
 const object = str => {
     return {
@@ -33,5 +33,5 @@ const object = str => {
     }
 }
 
-console.log(word)
+console.log(fragment)
 console.table(object('supercalifragilisticexpialidocious'))
