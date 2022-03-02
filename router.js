@@ -8,7 +8,7 @@ router.get('/', function(req, res, next) {
 
 router.post('/post', (req, res, next) => {
     let word = req.body.string
-    let object = {name: word, stringlength: word.length}
+    let object = {name: word, strlen: word.length}
     res.render('index', {newdata: JSON.stringify(object)});
 
 });
