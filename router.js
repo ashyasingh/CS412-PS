@@ -3,7 +3,7 @@ const router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-    res.render('index', { title: 'CS412' });
+    res.render('index', { title: 'ashyasingh' });
 });
 
 router.post('/post', (req, res, next) => {
@@ -14,7 +14,7 @@ router.post('/post', (req, res, next) => {
 });
 
 router.get('/get', function (req, res) {
-    const json = {key: 'Pug is Jade' }; // turns it into a string
+    const json = {key: 'Hey now' }; // turns it into a string
     res.render('index', {data: JSON.stringify(json) }); //turns it into JSON readable format
 
 });

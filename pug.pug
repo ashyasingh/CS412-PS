@@ -1,0 +1,14 @@
+extends layout
+
+block content
+    if data
+        p #{JSON.parse(data).key}
+    else if new
+        p #{JSON.parse(new).name}
+        p #{JSON.parse(new).stringlength}
+    else if string
+        p #{JSON.parse(string).string}
+        p #{JSON.parse(string).string}
+
+    else
+        p 'problem set 2'
