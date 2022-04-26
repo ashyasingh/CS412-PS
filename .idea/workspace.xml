@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e7d6c174-1baf-4023-9226-46446e7723c9" name="Changes" comment="fixed &amp; completed problem 3" />
+    <list default="true" id="e7d6c174-1baf-4023-9226-46446e7723c9" name="Changes" comment="fixed &amp; completed problem 3">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -69,6 +71,9 @@
       <workItem from="1646141575658" duration="6021000" />
       <workItem from="1646231628254" duration="2362000" />
       <workItem from="1649794944857" duration="47000" />
+      <workItem from="1651008121601" duration="266000" />
+      <workItem from="1651008399622" duration="22000" />
+      <workItem from="1651008701555" duration="48000" />
     </task>
     <task id="LOCAL-00001" summary="creating files for problem set 1">
       <created>1643666853032</created>
